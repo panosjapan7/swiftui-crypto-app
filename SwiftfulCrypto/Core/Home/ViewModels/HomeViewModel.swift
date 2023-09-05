@@ -8,6 +8,8 @@ class HomeViewModel: ObservableObject {
     @Published var allCoins: [CoinModel] = []
     @Published var portfolioCoins: [CoinModel] = []
     
+    @Published var searchText: String = ""
+    
     // Gives ability to access the publisher created in CoinDataService.swift
     private let dataService = CoinDataService()
     private var cancellables = Set<AnyCancellable>()
