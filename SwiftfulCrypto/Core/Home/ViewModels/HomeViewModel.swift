@@ -19,12 +19,27 @@ class HomeViewModel: ObservableObject {
     }
     
     func addSubscribers() {
-        // Subscribes to the allCoins publisher in CoinDataService.swift
-        dataService.$allCoins
+        // Updates allCoins
+        $searchText
+            .combineLatest(dataService.$allCoins)
+            .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
+            .map(filterCoins)
             .sink { [weak self] (returnedCoins) in
-                // append the data from the publisher to allCoins in line 8
                 self?.allCoins = returnedCoins
             }
             .store(in: &cancellables)
+    }
+    
+    private func filterCoins(text: String, coins: [CoinModel]) -> [CoinModel] {
+        guard !text.isEmpty else {
+            return coins
+        }
+        
+        let lowercasedText = text.lowercased()
+        return coins.filter { (coin) in
+            return coin.name.lowercased().contains(lowercasedText) ||
+                    coin.symbol.lowercased().contains(lowercasedText) ||
+                    coin.id.lowercased().contains(lowercasedText)
+        }
     }
 }
