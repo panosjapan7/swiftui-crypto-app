@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		242C6BAD2AA85618009929E2 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 242C6BAB2AA85618009929E2 /* PortfolioContainer.xcdatamodeld */; };
 		242C6BAF2AA856B1009929E2 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C6BAE2AA856B1009929E2 /* PortfolioDataService.swift */; };
+		242C6BB12AA86FD5009929E2 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C6BB02AA86FD5009929E2 /* HapticManager.swift */; };
 		2436DC382AA5B1FD00E8F551 /* HomeVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436DC372AA5B1FD00E8F551 /* HomeVIew.swift */; };
 		2436DC3C2AA5B34D00E8F551 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436DC3B2AA5B34D00E8F551 /* CircleButtonView.swift */; };
 		2436DC3E2AA5B70000E8F551 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436DC3D2AA5B70000E8F551 /* CircleButtonAnimationView.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		242C6BAC2AA85618009929E2 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		242C6BAE2AA856B1009929E2 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		242C6BB02AA86FD5009929E2 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		2436DC372AA5B1FD00E8F551 /* HomeVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVIew.swift; sourceTree = "<group>"; };
 		2436DC3B2AA5B34D00E8F551 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		2436DC3D2AA5B70000E8F551 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			children = (
 				2436DC4E2AA629ED00E8F551 /* NetworkingManager.swift */,
 				24594C9C2AA702D10060709C /* LocalFileManager.swift */,
+				242C6BB02AA86FD5009929E2 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				24594CA12AA714E10060709C /* UIApplication.swift in Sources */,
 				2436DC3C2AA5B34D00E8F551 /* CircleButtonView.swift in Sources */,
 				2456844D2AA467A800A0B523 /* Color.swift in Sources */,
+				242C6BB12AA86FD5009929E2 /* HapticManager.swift in Sources */,
 				24594C9F2AA70CF70060709C /* SearchBarView.swift in Sources */,
 				2436DC4F2AA629ED00E8F551 /* NetworkingManager.swift in Sources */,
 				24594CB12AA778FE0060709C /* CoinLogoView.swift in Sources */,
