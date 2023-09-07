@@ -17,6 +17,10 @@ struct SwiftfulCryptoApp: App {
         // overwrites the default foreground color of the navigation bar titles
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(Color.theme.accent ) ]
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color.theme.accent ) ]
+        // overwrites the default background color of the table list
+        UITableView.appearance().backgroundColor = UIColor.clear
+        // overwrites the default color of the Back button
+//        UINavigationBar.appearance().backgroundColor = UIColor(Color.theme.accent)
     }
     
     var body: some Scene {
