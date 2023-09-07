@@ -31,7 +31,6 @@
 		2437BE032AAA19530028C433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437BE022AAA19530028C433 /* LaunchScreen.storyboard */; };
 		2437BE052AAA1B990028C433 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437BE042AAA1B990028C433 /* LaunchView.swift */; };
 		2456843C2AA4642B00A0B523 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456843B2AA4642B00A0B523 /* SwiftfulCryptoApp.swift */; };
-		2456843E2AA4642B00A0B523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456843D2AA4642B00A0B523 /* ContentView.swift */; };
 		245684432AA4642D00A0B523 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245684422AA4642D00A0B523 /* Preview Assets.xcassets */; };
 		2456844D2AA467A800A0B523 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456844C2AA467A800A0B523 /* Color.swift */; };
 		2456844F2AA468B300A0B523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2456844E2AA468B300A0B523 /* Assets.xcassets */; };
@@ -77,7 +76,6 @@
 		2437BE042AAA1B990028C433 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		245684382AA4642B00A0B523 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2456843B2AA4642B00A0B523 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
-		2456843D2AA4642B00A0B523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		245684422AA4642D00A0B523 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2456844C2AA467A800A0B523 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2456844E2AA468B300A0B523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -297,7 +295,6 @@
 				2436DC4A2AA5ED7100E8F551 /* Services */,
 				2436DC3F2AA5BA5300E8F551 /* Models */,
 				2436DC322AA5B1A500E8F551 /* Core */,
-				2456843D2AA4642B00A0B523 /* ContentView.swift */,
 				2456844E2AA468B300A0B523 /* Assets.xcassets */,
 				245684412AA4642D00A0B523 /* Preview Content */,
 			);
@@ -404,7 +401,6 @@
 				24594CAF2AA774F50060709C /* XMarkButton.swift in Sources */,
 				2436DC492AA5D61D00E8F551 /* HomeViewModel.swift in Sources */,
 				2437BDF92AA9B7BF0028C433 /* Date.swift in Sources */,
-				2456843E2AA4642B00A0B523 /* ContentView.swift in Sources */,
 				24594C9D2AA702D10060709C /* LocalFileManager.swift in Sources */,
 				24594CA92AA726C60060709C /* MarketDataModel.swift in Sources */,
 				2436DC382AA5B1FD00E8F551 /* HomeVIew.swift in Sources */,
