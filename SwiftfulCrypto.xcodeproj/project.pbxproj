@@ -184,10 +184,10 @@
 			isa = PBXGroup;
 			children = (
 				2436DC402AA5BA7A00E8F551 /* CoinModel.swift */,
+				2459FDBB2AA8CEE0009BFE71 /* CoinDetailModel.swift */,
 				24594CA22AA71D5E0060709C /* StatisticModel.swift */,
 				24594CA82AA726C60060709C /* MarketDataModel.swift */,
 				242C6BAB2AA85618009929E2 /* PortfolioContainer.xcdatamodeld */,
-				2459FDBB2AA8CEE0009BFE71 /* CoinDetailModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,10 +196,10 @@
 			isa = PBXGroup;
 			children = (
 				2436DC4B2AA5EDA300E8F551 /* CoinDataService.swift */,
+				2459FDBF2AA8D200009BFE71 /* CoinDetailDataService.swift */,
 				2436DC532AA6333F00E8F551 /* CoinImageService.swift */,
 				24594CAA2AA72B460060709C /* MarketDataService.swift */,
 				242C6BAE2AA856B1009929E2 /* PortfolioDataService.swift */,
-				2459FDBF2AA8D200009BFE71 /* CoinDetailDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
